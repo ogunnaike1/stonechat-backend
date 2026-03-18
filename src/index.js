@@ -5,7 +5,7 @@ const cors = require("cors");
 const connectDB = require("./Dbconfig/dbconfig")
 const http = require("http");
 
-dotenv.config({ path: path.resolve(__dirname, "../../.env") });
+dotenv.config();
 
 const app = express()
 const server = http.createServer(app);
