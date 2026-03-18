@@ -3,7 +3,7 @@ const router      = express.Router();
 const Message     = require("../Model/MessageModel");
 const verifyToken = require("../middleware/authMiddleware");
 const upload      = require("../utils/MutlerConfig");
-const cloudinary  = require("../Utils/Cloudinary");
+const cloudinary  = require("../utils/Cloudinary");
 const streamifier = require("streamifier");
 
 /* ─────────────────────────────────────────────
