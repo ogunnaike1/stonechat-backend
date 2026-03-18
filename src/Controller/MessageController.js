@@ -1,5 +1,5 @@
 const Message    = require("../Model/MessageModel");
-const cloudinary = require("../Utils/Cloudinary");
+const cloudinary = require("../utils/Cloudinary");
 const streamifier = require("streamifier");
 
 /* ─────────────────────────────────────────────
