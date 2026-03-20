@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const userModel = require("../Model/UserModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const cloudinary = require("../Utils/Cloudinary");
+const cloudinary = require("../utils/Cloudinary");
 const { isPasswordValid, getPasswordErrors } = require("../utils/passwordValidator");
 const { generateOTP, sendWelcomeMail, sendPasswordResetOTP } = require("../utils/Mailer");
 
