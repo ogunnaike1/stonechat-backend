@@ -26,6 +26,8 @@ app.use("/admin",    require("./Route/AdminRoute"));   // ← added
 
 const port = 5002
 
+app.get("/ping", (req, res) => res.send("pong"));
+
 app.get("/", (req, res) => {
     res.send('connected')
 })
